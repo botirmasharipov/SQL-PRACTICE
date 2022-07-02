@@ -1,0 +1,31 @@
+/*SELECT *
+FROM users
+LIMIT 200;
+ 
+SELECT *
+FROM progress
+LIMIT 200;*/
+ 
+/*SELECT email_domain, COUNT(user_id)
+FROM users
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 25;*/
+ 
+/*SELECT city, COUNT(user_id)
+FROM users
+WHERE city = 'New York';
+ 
+SELECT mobile_app, COUNT(mobile_app)
+FROM users
+WHERE mobile_app = 'mobile-user';*/
+ 
+/*SELECT sign_up_at,
+  strftime('%H', sign_up_at), COUNT (*)
+FROM users
+LIMIT 20;*/
+ 
+ /*SELECT *
+ FROM users
+ LEFT JOIN progress
+ ON users.user_id = progress.user_id;*/
